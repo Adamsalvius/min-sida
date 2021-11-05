@@ -1,0 +1,21 @@
+/* .container {flex: 1 0 1 1;} */
+form {display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    /* max-width: 10em;
+    min-width: 2em; */
+    /* align-self: center; */
+}
+body {display: grid;
+grid-template-rows: auto auto auto;
+
+}
+.container {
+    display:grid;
+    margin: auto;
+    padding: 0 2rem;
+    justify-items: center;
+}
+
+form > label {
+    margin-top: 0.4em;}
